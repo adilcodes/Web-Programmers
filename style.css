@@ -1,0 +1,458 @@
+html {
+  scroll-behavior: smooth;
+}  
+
+#loader{
+	
+	position:fixed;
+	width:100%;
+	height:100vh;
+	background:#fff url('images/loader.gif');
+	z-index:99999;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:100px;
+ 	
+	
+	
+	}
+
+.drk:after{
+	content:"";
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background:#000;
+	opacity:0.5;
+	}
+	
+nav ul li{
+	padding-left:31px;
+	}
+	
+nav .navbar-brand{
+	font-size:30px;
+	font-family: 'Lobster', cursive;
+	}
+.caption{
+	
+	width:100%;
+	max-width:100%;
+	position:absolute;
+	top:26%;
+	z-index:1000;
+	}
+.carousel-inner .caption h1{
+	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    z-index: 1000;
+    font-size: 62px;
+ 	}
+.carousel-inner .caption p{
+	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    z-index: 1000;
+    font-size: 22px;
+	
+	}
+	
+	                      /*Header----end*/
+.banner1{
+	
+	background-color:#1B1B1B;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:24px;
+	color:#0CC;
+	text-align:center;
+    height:145px;
+	
+	}
+                           /*Section---start*/	
+.section h1{
+	
+	position:relative;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+    font-family: 'Righteous', cursive;	
+	}
+.section .text h3{
+	
+	margin-top:30px;
+	
+	}
+	
+.section .text p{
+	
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:17px;
+	
+	}
+.section .text p #contact{
+	
+	font-size:21px;
+	color:#1B1B1B;
+	font-weight:600;
+	
+	}
+.section .text p #contact a{
+	
+	text-decoration:none;
+	color:#092f73;
+	transition:0.5s;
+	
+	}
+.section .text p #contact a:hover{
+	
+	color:#0CC;
+	
+	}
+#btn{
+	
+	background-color:transparent;
+    border: 1px solid #000;
+    padding: 8px;
+    border-radius: 21px;
+	transition:0.6s;
+	}	
+#btn:hover,	
+#btn:focus{
+	
+	outline:none;
+	
+	}	
+#btn:hover{
+	
+	background-color:#292d31;
+	color:#fff;
+	
+	}
+#more{
+	display:none;
+	
+	}	
+	                      /*Section----end*/
+	                      /*Services----start*/
+
+.banner2{
+	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:26px;
+	color:#0CC;
+	text-align:center;
+    height:145px;
+	width:100%!important;
+	
+	
+	}
+.one{
+	
+	border: none;
+    height: 5px;
+    background-color: #0CC;
+    width: 81px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+	
+	}	
+
+	
+	
+	
+.Cb {
+	
+	height:400px;
+	transition:0.5s;
+	}
+.Cb .Ci {
+	
+	height:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color:#333;
+	border-radius:0px;
+	
+	}
+.Cb .Ct{
+	
+	height: 224px;
+    background: #333;
+    text-align: center;
+	color:#fff;
+	font-family:Verdana, Geneva, sans-serif;
+	
+	
+	}		
+.Cb:hover{
+	
+	transform:scale(1.1);
+	
+	}
+	                      /*Services----end*/
+	                      /*Parallax----start*/
+.parallax{
+	width:100% !important;
+    height:450px;
+	background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/parallax.jpg);
+    background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:fixed;
+	height:auto;
+	}
+
+.parallax .watch{
+	
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	height:450px;
+	color:#0CC;
+	font-size:20px;
+	text-align:center;
+	}
+	
+.parallax .tools{
+	
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	height:450px;
+	color:#0CC;
+	font-size:20px;
+	text-align:center;
+	}
+	
+.parallax .mission{
+	
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	height:450px;
+	color:#0CC;
+	font-size:20px;
+	text-align:center;
+	}
+	
+	                      /*Parallax----end*/
+
+.banner3{
+	
+	width:100%;
+	background-color:#0a0a0a;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:24px;
+	color:#07cee6;
+	text-align:center;
+    height:145px;
+	
+	}
+	
+	
+	
+/*    background:   linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/parallax.jpg);
+*/	
+
+.portfolio img{
+	
+	padding-left:25px;
+	margin-top:20px;
+	
+	
+	}
+
+.Ab {
+	
+	height:600px;
+	transition:0.5s;
+	}
+.Ab .Ai {
+	
+	height:350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color:#333;
+	border-radius:0px;
+	
+	}
+.Ab .At{
+	
+	height: 224px;
+    background: #333;
+    text-align: center;
+	color:#fff;
+	font-family:Verdana, Geneva, sans-serif;
+	
+	
+	}		
+.Ab:hover{
+	
+	transform:scale(1.1);
+	
+	}
+
+
+.contact .form-control{
+	
+	background-color:transparent;
+	border:none;
+	border-bottom:2px solid rgba(0,0,0,0.6);
+	height:50px;
+	border-radius:0px;
+	font-size:20px;
+	background:#1B1B1B;
+	color:#fff;
+	
+	}
+.contact .form-control:hover,
+.contact .form-control:focus{
+
+	border:none;
+	border-bottom:2px solid #049494;
+	box-shadow:none;
+
+	}
+	
+.contact label{
+	
+	
+	font-size:23px;
+	color:#333;
+	
+	
+	}
+.contact textarea{
+	
+	min-height:100px;
+	}		
+.contact button{
+	
+	background-color:#049494;
+	text-align:center;
+	
+	
+	}
+.contact button:hover,
+.contact button:focus{
+	
+	
+	background-color:#333;
+	border:1px solid #049494;
+	
+	}
+	
+footer{
+	
+	background-color:#1F2323;
+	width:100% !important;
+	color:#fff;
+	
+	
+	}	
+footer .content{
+	margin-top:35px;
+	}
+footer .text p{
+	
+	padding-top:5px;
+	}	
+footer .links ul li{
+	
+	padding-top:5px;
+	
+	}
+footer .links ul li a{
+	
+	color:#0CC;
+	font-size:17px;
+	text-decoration:none;
+	transition:0.3s;
+	
+	
+	}
+footer .links ul li a:hover,
+footer .links ul li a:focus{
+	
+	
+	text-decoration:none;
+	color:#fff;
+	
+	
+	}
+footer .contact p{
+	
+	padding-top:5px;
+	
+	}
+.smi{
+	
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	
+	
+	}
+.smi li{
+
+	list-style-type:none;
+	margin:0 18px;
+	}
+.smi li a{
+	
+	text-decoration:none;
+	color:#777;
+	font-size:2em;
+	transition:0.3s;
+	
+	
+	}
+.smi li a:hover{
+	
+	color:#fff;
+	
+	
+	}
+.cpyrt{
+	
+	text-align:center;
+	color:#777;
+	margin-left:30px;
+	
+	}	
+.cpyrt a{
+	
+	color:#fff;
+	text-decoration:none;
+	transition:0.3s;
+	}
+.cpyrt a:hover{
+	
+	color:#0CC;
+	text-decoration:none;
+	
+	
+	}
+	
+	
